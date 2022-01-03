@@ -1,8 +1,44 @@
+html {
+  display: block;
+}
+
 /*header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /*header end*/
 
 /*page-mv*/
+body {
+  background-image: url(/img/mv.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
 /*page-mv　end*/
 
 /*servise*/
