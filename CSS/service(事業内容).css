@@ -64,6 +64,7 @@ main {
 .service-wrap {
   width: 80%;
   margin: 100px auto;
+  border-bottom: 1px solid #222;
 }
 
 .service-item {
@@ -84,7 +85,7 @@ img {
 
 .service-item-detail {
   width: calc(100% - 330px);
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .service-item-ttl {
@@ -111,7 +112,51 @@ h2 {
 /*servise end*/
 
 /*bottom contact*/
+.bottom-contact {
+  background-color: rgb(246, 246, 252);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.bottom-contact-ttl {
+  padding-top: 100px;
+  font-size: 36px;
+}
+.bottom-contact-btn {
+  display: block;
+  width: 300px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #cd0224;
+  padding: 10px;
+  margin: 50px auto;
+  font-weight: bold;
+  text-align: center;
+}
+
 /*bottom contact end*/
 
 /*footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+}
+
+a {
+  color: #fff;
+}
+
+.footer-nav-list {
+  display: flex;
+  text-decoration: none;
+
+.fotter-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /*footer end*/
